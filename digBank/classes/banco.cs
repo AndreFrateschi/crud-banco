@@ -3,10 +3,10 @@ namespace digBank.classes
 {
     public abstract class banco
     {
-public banco()
+        public banco()
         {
             this.nomeDoBanco = "AMERICA OF BANK";
-            this.codigoDoBanco = "123213"; 
+            this.codigoDoBanco = "00000"; 
         }
 
         public string nomeDoBanco { get; private set; }
